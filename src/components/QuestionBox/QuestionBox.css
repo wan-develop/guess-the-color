@@ -1,0 +1,26 @@
+
+.Box {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 150px;
+  
+}
+
+.option {
+  padding: 10px 20px;
+
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: solid 2px white;
+  color: white;
+  border-radius: 10px;
+  font-weight: 550;
+
+}
+
+.option:hover {
+  background-color: #1111;
+}

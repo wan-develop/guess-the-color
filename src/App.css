@@ -1,0 +1,33 @@
+.App {
+  background-color: #444;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+
+}
+
+.answer-status {
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 20px;
+  
+}
+
+.right-answer {
+  color: green;
+  background-color: #99FF99;
+}
+
+.wrong-answer {
+  color: red;
+  background-color: #FF9999;
+
+}
+
