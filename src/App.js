@@ -69,8 +69,8 @@ function App() {
 
       {
         isValid
-          ? <h3 className='right-answer answer-status'>ACERTOU!</h3>
-          : <h3 className='wrong-answer answer-status'>ERROU!</h3>
+          ? <h3 className='right-answer answer-status'>You Rock!</h3>
+          : <h3 className='wrong-answer answer-status'>You miss!</h3>
       }
     </div>
   );
